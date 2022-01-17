@@ -22,3 +22,18 @@ reverse_morse = {'.-': 'A',
                  '..-': 'U', '...-': 'V', '.--': 'W', 
                  '-..-': 'X', '-.--': 'Y', '--..': 'Z', '\t': ' '}
 
+
+def encode_to_morse(text):
+    pass
+
+
+def decode_from_morse(code):
+    pass
+
+
+def main():
+    pass
+
+
+if __name__ == '__main__':
+    main()
