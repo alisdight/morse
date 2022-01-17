@@ -28,7 +28,7 @@ def encode_to_morse(text):
     k = []
     for i in range(len(text)):
         k.append(morse[text[i]])
-    text = ''.join(k)
+    text = ' '.join(k)
     return text
 
 
