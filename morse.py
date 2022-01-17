@@ -24,6 +24,7 @@ reverse_morse = {'.-': 'A',
 
 
 def encode_to_morse(text):
+         def encode_to_morse(text):
     text = text.upper()
     k = []
     for i in range(len(text)):
@@ -37,7 +38,17 @@ def decode_from_morse(code):
 
 
 def main():
-    pass
+    while True:
+        print("Вы хотите закодировать (0) или раскодировать(1) текст?")
+        user_operation = input()
+        if user_operation == "0":
+            print("Введите текст:")
+            text = input().upper()
+            print(encode_to_morse(text))
+        elif user_operation == "1":
+            print("Введите код:")
+            code = input()
+            print(decode_from_morse(code))
 
 
 if __name__ == '__main__':
