@@ -24,11 +24,11 @@ reverse_morse = {'.-': 'A',
 
 
 def encode_to_morse(text):
-    pass
+    return text
 
 
 def decode_from_morse(code):
-    pass
+    return code
 
 
 def main():
