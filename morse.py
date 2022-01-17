@@ -24,7 +24,6 @@ reverse_morse = {'.-': 'A',
 
 
 def encode_to_morse(text):
-         def encode_to_morse(text):
     text = text.upper()
     k = []
     for i in range(len(text)):
